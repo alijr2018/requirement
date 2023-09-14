@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+sudo apt update && sudo apt upgrade && sudo apt autoclean && sudo apt autoremove && sudo apt remove
+
+sudo apt-get install curl
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+
+echo "verifing installation"
+
+command -v nvm
+
+nvm ls
+
+nvm install --lts
+
+nvm install node
+
+nvm ls
+
+node --version
+
+npm --version
+
+udo npm install semistandard --global
