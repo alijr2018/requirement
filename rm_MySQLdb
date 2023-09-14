@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+echo "starting uninstalling MySQLdb"
+
+sudo apt-get remove python3-dev -y
+
+sudo apt-get remove libmysqlclient-dev -y
+
+sudo apt-get remove zlib1g-dev -y
+
+sudo pip3 uninstall mysqlclient
