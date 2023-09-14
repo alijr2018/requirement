@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo "uninstalling SQLAlchemy"
+
+sudo pip3 uninstall SQLAlchemy

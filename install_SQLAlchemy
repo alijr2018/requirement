@@ -2,4 +2,4 @@
 
 echo "installing SQLAlchemy"
 
-sudo pip3 install SQLAlchemy
+sudo pip install SQLAlchemy==1.4.22
