@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+sudo apt-get remove -y ruby=1:2.7+1 --allow-downgrades
+$ apt-get remove -y ruby-augeas
+$ apt-get remove -y ruby-shadow
+$ apt-get remove -y puppet
