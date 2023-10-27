@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Install semi-standard
+
+sudo npm install semistandard --global
+
