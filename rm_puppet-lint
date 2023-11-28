@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+sudo apt-get remove -y ruby
+sudo gem remove puppet-lint -v 2.1.1
+
