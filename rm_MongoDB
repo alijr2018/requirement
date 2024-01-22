@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+sudo apt-get update
+
+sudo apt-get remove -y mongodb-org
+
+pip3 remove pymongo
+
